@@ -2,4 +2,6 @@
 
 webapp link:https://flipkartreviewscrapperapp.herokuapp.com/
 
-![](flipkartscrapper.png,flipkartscrapper2.png)
+![](https://github.com/VAMSINADH2000/FlipKart-Review-Scrapper/blob/main/flipkartscrapper.png)
+
+![](https://github.com/VAMSINADH2000/FlipKart-Review-Scrapper/blob/main/flipkartscrapper2.png)
