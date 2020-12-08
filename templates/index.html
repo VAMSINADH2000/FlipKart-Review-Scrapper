@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content" >
+    <h1 style="text-align: center;color:white" >Enter Product Name </h1>
+
+    <div class="form">
+        <form action="/scrap" method="POST">
+            <input type="text" name="content" id="content" style="  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;">
+            <input type="submit" value="Search" style=" background-color: #ff66a3; /* Green */
+  border: none;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;">
+        </form>
+    </div>
+</div>
+{% endblock %}

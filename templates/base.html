@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% block head %}{% endblock %}
+</head>
+<body style="background-color:black;
+	background-image: url('https://media.gettyimages.com/photos/flipkarts-application-loading-page-displayed-on-an-apple-inc-iphone-picture-id492525575?s=2048x2048');
+	background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height:100vh;
+	font-family: 'Noto Sans', sans-serif;">
+    {% block body %}{% endblock %}
+</body>
+</html>
